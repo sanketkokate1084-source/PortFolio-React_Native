@@ -1,0 +1,39 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"],
+      "tailwind.config": ["./tailwind.config.js"]
+    }
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "hooks/**/*.ts",
+    "hooks/**/*.tsx",
+    "localStorage/**/*.ts",
+    "localStorage/**/*.tsx",
+    "network/**/*.ts",
+    "network/**/*.tsx",
+    "redux/**/*.ts",
+    "redux/**/*.tsx",
+    "utilities/**/*.ts",
+    "utilities/**/*.tsx",
+    "index.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts",
+    "react-native-css-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "android",
+    "ios",
+    "backup"
+  ]
+}

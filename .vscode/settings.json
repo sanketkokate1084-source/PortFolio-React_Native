@@ -1,0 +1,33 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[javascript]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+  "[javascriptreact]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+  "[typescript]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#3d1c49",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#1e0e24",
+    "titleBar.inactiveForeground": "#ffffff",
+    "activityBar.background": "#1f0e25",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.inactiveForeground": "#ffffff66",
+    "activityBar.border": "#ffffff33",
+    "statusBar.background": "#1f0e25",
+    "statusBar.foreground": "#ffffff"
+  },
+ 
+}
