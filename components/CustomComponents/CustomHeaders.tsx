@@ -6,7 +6,6 @@ import {LinearGradient} from 'expo-linear-gradient';
 import Animated, {FadeInUp, FadeOutUp} from 'react-native-reanimated';
 import {ThemeToggle} from './ThemeToggle/ThemeToggle';
 import ThemedView from './ThemedView/ThemedView';
-import ThemedText from './ThemedText/ThemedText';
 
 export const CUSTOM_HEADER_HEIGHT = 60;
 
